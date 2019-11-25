@@ -1,0 +1,19 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "rnoportuni3-20191124180252-authRole",
+            "UnauthRoleArn": "arn:aws:iam::066966667656:role/rnoportuni3-20191124180252-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::066966667656:role/rnoportuni3-20191124180252-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "rnoportuni3-20191124180252-deployment",
+            "UnauthRoleName": "rnoportuni3-20191124180252-unauthRole",
+            "StackName": "rnoportuni3-20191124180252",
+            "StackId": "arn:aws:cloudformation:us-west-2:066966667656:stack/rnoportuni3-20191124180252/b360d3f0-0f27-11ea-a42a-0630a3bc1d1a"
+        },
+        "categories": {
+            "auth": {
+                "cognitoaaa2b18b": {}
+            }
+        }
+    }
+}

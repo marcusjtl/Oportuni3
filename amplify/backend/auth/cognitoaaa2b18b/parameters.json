@@ -39,12 +39,21 @@
     ],
     "userpoolClientName": "cognitoaaa2b18b_app_client",
     "userpoolClientGenerateSecret": true,
-    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientRefreshTokenValidity": "30",
     "userpoolClientWriteAttributes": [
-        "email"
+        "address",
+        "birthdate",
+        "email",
+        "family_name",
+        "given_name",
+        "phone_number"
     ],
     "userpoolClientReadAttributes": [
-        "email"
+        "address",
+        "email",
+        "family_name",
+        "given_name",
+        "phone_number"
     ],
     "mfaLambdaRole": "cognitoaaa2b18b_totp_lambda_role",
     "mfaLambdaLogPolicy": "cognitoaaa2b18b_totp_lambda_log_policy",
@@ -53,7 +62,7 @@
     "userpoolClientLambdaRole": "cognitoaaa2b18b_userpoolclient_lambda_role",
     "userpoolClientLogPolicy": "cognitoaaa2b18b_userpoolclient_lambda_log_policy",
     "userpoolClientLambdaPolicy": "cognitoaaa2b18b_userpoolclient_lambda_iam_policy",
-    "userpoolClientSetAttributes": false,
+    "userpoolClientSetAttributes": true,
     "useDefault": "manual",
     "authSelections": "identityPoolAndUserPool",
     "resourceName": "cognitoaaa2b18b",

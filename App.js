@@ -18,7 +18,16 @@ class App extends React.Component {
   }
 }
 
-export default withAuthenticator(App);
+export default withAuthenticator(App, {
+  signUpConfig: {
+    signUpFields: [
+      {label: "First Name", key: "given_name", required: true, type: "string"},
+      {label: "Last Name", key: "family_name", required: true, type: "string"},
+      {label: "Address", key: "address", required: true, type: "string"},
+      {label: "Birthdate: 00/00/0000", key: "birthdate", required: true, type: "string"}
+    ]
+  }
+});
 
 const styles = StyleSheet.create({
   container: {

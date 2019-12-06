@@ -28,7 +28,7 @@ class App extends React.Component {
     
     console.log(document);
 
-    Storage.put(document.uri, 'Hello World', "public")
+    Storage.put('images/test.jpg', document.uri, "public")
       .then(result => {
         console.log('result: ', result)
         //this.setState({photo: '', photoURL: '', photoName: ''})

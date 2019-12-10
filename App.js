@@ -60,7 +60,6 @@ class App extends React.Component {
 
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
 
         {photo && (
               <Image source={{uri: photo }} style = {{ width: 200, height: 200 }}/>
@@ -72,7 +71,7 @@ class App extends React.Component {
         />
           
         <Button
-        title = "Upload Driver's License"
+        title = "Upload Paystub"
         onPress={this.uploadS3}
         />
 

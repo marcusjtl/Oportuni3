@@ -1,7 +1,9 @@
 # This is the README for Oportuni3
 
 # First configure AWS on your local machine
-All the aws features in our react native app are deployed via AWS Amplify which injects all these features directly. PRAISE JEFF BEZOS but he needs to pay taxes
+All the aws features in our react native app are deployed via AWS Amplify which injects all these features directly.
+
+However, we removed certain files relating to AWS in order to keep our access keys for S3, Cognito, Amplify, etc. private. 
 
 After cloning into the repository, you want to have AWS Amplify installed globally on your machine by doing the following:
 
